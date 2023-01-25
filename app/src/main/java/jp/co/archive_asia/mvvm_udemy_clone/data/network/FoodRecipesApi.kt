@@ -1,4 +1,4 @@
-package jp.co.archive_asia.mvvm_udemy_clone
+package jp.co.archive_asia.mvvm_udemy_clone.data.network
 
 import jp.co.archive_asia.mvvm_udemy_clone.models.FoodRecipe
 import retrofit2.Response
