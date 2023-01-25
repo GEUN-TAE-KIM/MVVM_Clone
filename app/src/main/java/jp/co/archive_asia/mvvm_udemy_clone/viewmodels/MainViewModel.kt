@@ -1,4 +1,4 @@
-package jp.co.archive_asia.mvvm_udemy_clone
+package jp.co.archive_asia.mvvm_udemy_clone.viewmodels
 
 import android.app.Application
 import android.content.Context
