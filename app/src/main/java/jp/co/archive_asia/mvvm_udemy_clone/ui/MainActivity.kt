@@ -1,4 +1,4 @@
-package jp.co.archive_asia.mvvm_udemy_clone
+package jp.co.archive_asia.mvvm_udemy_clone.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,6 +7,7 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import jp.co.archive_asia.mvvm_udemy_clone.R
 import jp.co.archive_asia.mvvm_udemy_clone.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
