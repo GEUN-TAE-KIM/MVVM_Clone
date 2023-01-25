@@ -1,4 +1,4 @@
-package jp.co.archive_asia.mvvm_udemy_clone
+package jp.co.archive_asia.mvvm_udemy_clone.ui.recipes
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
