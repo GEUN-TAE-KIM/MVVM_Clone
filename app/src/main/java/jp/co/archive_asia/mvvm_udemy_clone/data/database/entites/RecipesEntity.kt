@@ -1,4 +1,4 @@
-package jp.co.archive_asia.mvvm_udemy_clone.data.database
+package jp.co.archive_asia.mvvm_udemy_clone.data.database.entites
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

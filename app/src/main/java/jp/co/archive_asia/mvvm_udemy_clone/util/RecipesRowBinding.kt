@@ -1,6 +1,5 @@
 package jp.co.archive_asia.mvvm_udemy_clone.util
 
-import android.annotation.SuppressLint
 import android.util.Log
 import android.view.View
 import android.widget.ImageView
@@ -11,8 +10,9 @@ import androidx.databinding.BindingAdapter
 import androidx.navigation.findNavController
 import coil.load
 import jp.co.archive_asia.mvvm_udemy_clone.R
-import org.jsoup.Jsoup
 import jp.co.archive_asia.mvvm_udemy_clone.models.Result
+import jp.co.archive_asia.mvvm_udemy_clone.ui.fragments.recipes.RecipesFragmentDirections
+import org.jsoup.Jsoup
 
 class RecipesRowBinding {
 
@@ -24,9 +24,9 @@ class RecipesRowBinding {
             Log.d("onRecipeClickListener", "CALLED")
             recipeRowLayout.setOnClickListener {
                 try {
-                 /*   val action =
+                    val action =
                         RecipesFragmentDirections.actionRecipesFragmentToDetailsActivity(result)
-                    recipeRowLayout.findNavController().navigate(action)*/
+                    recipeRowLayout.findNavController().navigate(action)
                 } catch (e: Exception) {
                     Log.d("onRecipeClickListener", e.toString())
                 }
