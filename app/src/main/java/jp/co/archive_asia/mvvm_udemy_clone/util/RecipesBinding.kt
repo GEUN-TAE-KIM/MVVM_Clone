@@ -5,7 +5,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.core.view.isVisible
 import androidx.databinding.BindingAdapter
-import jp.co.archive_asia.mvvm_udemy_clone.data.database.RecipesEntity
+import jp.co.archive_asia.mvvm_udemy_clone.data.database.entites.RecipesEntity
 import jp.co.archive_asia.mvvm_udemy_clone.models.FoodRecipe
 
 class RecipesBinding {
@@ -30,4 +30,5 @@ class RecipesBinding {
             }
         }
     }
+
 }
